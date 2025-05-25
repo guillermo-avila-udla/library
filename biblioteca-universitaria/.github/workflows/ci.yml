@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Paso 1: Clonar el repositorio
+      # Paso 1: Clonar el repositorio, esto deberia crear un action
       - name: Checkout del código
         uses: actions/checkout@v4 # Actualizado a la última versión
 
